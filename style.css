@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Salsa';
+    src: url(Fonts/Salsa/Salsa-Regular.ttf);
+}
+@font-face {
+    font-family: 'tETKUR';
+    src: url(Fonts/Tektur/Tektur-VariableFont_wdth\,wght.ttf);
+}
+
+.inp{
+    color: aquamarine;
+    border: none;
+    border-bottom: 2px solid white; 
+    outline: none; 
+    font-family: 'tETKUR';
+}
+p{
+    color: white;
+    font-family: 'Salsa';
+}
+*{
+    background-color: black;
+}
+.inp:focus{
+     
+     border-bottom-color: blue;
+}
+#text{
+    color: aquamarine;
+    border: none;
+    border-bottom: 2px solid white; 
+    outline: none; 
+    font-family: 'tETKUR';
+    width: auto;
+    height: 70px;
+}
